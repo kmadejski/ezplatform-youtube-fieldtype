@@ -1,0 +1,8 @@
+system:
+    default:
+        field_templates:
+            - {template: "EzSystemsYouTubeFieldTypeBundle:fields:ezyt.html.twig", priority: 0}
+        fielddefinition_edit_templates:
+            - {template: "EzSystemsYouTubeFieldTypeBundle:platformui/content_type/edit:ezyt.html.twig", priority: 0}
+        fielddefinition_settings_templates:
+            - {template: "EzSystemsYouTubeFieldTypeBundle:platformui/content_type/view:ezyt.html.twig", priority: 0}

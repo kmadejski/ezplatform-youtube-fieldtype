@@ -1,0 +1,55 @@
+<div class="ez-fieldview-row pure-g">
+    <div class="ez-fieldview-label pure-u">
+        <p class="ez-fieldview-name">
+            <strong>{{ translate_property fieldDefinition.names }}</strong>
+        </p>
+    </div>
+    <div class="ez-fieldview-value pure-u">
+        <div class="ez-fieldview-value-content">
+            <div class="ez-yt-list-table-container">
+                <table class="pure-table pure-table-striped ez-yt-list-table">
+                    <thead>
+                    <tr>
+                        <th>{{ translate "ezyt.vid" "ezyt" }}</th>
+                        <th>{{ translate "ezyt.title" "ezyt" }}</th>
+                        <th>{{ translate "ezyt.width" "ezyt" }}</th>
+                        <th>{{ translate "ezyt.height" "ezyt" }}</th>
+                        <th>{{ translate "ezyt.autoplay" "ezyt" }}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <a href="https://youtube.com/watch?v={{ value.videoId }}" target="_blank" title="{{ translate "ezyt.see_on_yt" "ezyt" }}">{{ value.videoId }}</a>
+                        </td>
+                        <td>
+                            {{ value.title }}
+                        </td>
+                        <td>
+                            {{ value.width }}
+                        </td>
+                        <td>
+                            {{ value.height }}
+                        </td>
+                        <td>
+                            {{#if value.autoplay}}
+                                YES
+                            {{ else }}
+                                NO
+                            {{/if}}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="ez-fieldview-ezyt-thumbnail">
+            <p class="ez-fieldview-name">
+                <strong>{{ translate "ezyt.preview" "ezyt" }}</strong>
+            </p>
+            <iframe id="ytplayer" type="text/html" width="{{ value.width }}" height="{{ value.height }}"
+                    src="https://www.youtube.com/embed/{{ value.videoId }}?autoplay={{ value.autoplay }}&origin=/"
+                    frameborder="0"></iframe>
+        </div>
+    </div>
+</div>

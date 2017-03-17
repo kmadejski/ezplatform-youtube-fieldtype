@@ -1,0 +1,7 @@
+system:
+    default:
+        css:
+            files:
+                - '@EzSystemsYouTubeFieldTypeBundle/Resources/public/css/views/field.css'
+                - '@EzSystemsYouTubeFieldTypeBundle/Resources/public/css/views/edit.css'
+                - '@EzSystemsYouTubeFieldTypeBundle/Resources/public/css/views/view.css'

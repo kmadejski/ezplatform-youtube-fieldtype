@@ -1,0 +1,20 @@
+{% block ezyt_settings %}
+    <ul class="ez-field-definition-properties">
+        <li class="ez-field-definition-property">
+            <div class="ez-field-definition-property-name">
+                {% trans from "forms" %}ezyt.default_embed_width{% endtrans %}
+            </div>
+            <div class="ez-field-definition-property-value">
+                {{ settings.defaultWidth }} px
+            </div>
+        </li>
+        <li class="ez-field-definition-property">
+            <div class="ez-field-definition-property-name">
+                {% trans from "forms" %}ezyt.default_embed_height{% endtrans %}
+            </div>
+            <div class="ez-field-definition-property-value">
+                {{ settings.defaultHeight }} px
+            </div>
+        </li>
+    </ul>
+{% endblock %}

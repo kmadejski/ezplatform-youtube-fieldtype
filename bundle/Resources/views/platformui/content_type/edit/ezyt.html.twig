@@ -1,0 +1,13 @@
+{% block ezyt_field_definition_edit %}
+    <div class="ezyt-validator max-tags{% if group_class is not empty %} {{ group_class }}{% endif %}">
+        {{- form_label(form.defaultWidth) -}}
+        {{- form_errors(form.defaultWidth) -}}
+        {{- form_widget(form.defaultWidth) -}}
+    </div>
+
+    <div class="ezyt-settings hide-root-tag{% if group_class is not empty %} {{ group_class }}{% endif %}">
+        {{- form_label(form.defaultHeight) -}}
+        {{- form_errors(form.defaultHeight) -}}
+        {{- form_widget(form.defaultHeight) -}}
+    </div>
+{% endblock %}

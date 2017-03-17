@@ -1,0 +1,112 @@
+<div class="pure-g ez-editfield-row ez-editfield-row-yt-videoId ez-editfield-yt">
+    <div class="pure-u ez-editfield-infos">
+        <label for="ez-field-{{ content.contentId }}-{{ fieldDefinition.identifier }}-videoId">
+            <p class="ez-fielddefinition-name">
+                {{ translate_property fieldDefinition.names }}{{#if isRequired}}*{{/if}}:
+            </p>
+            <p class="ez-editfield-yt-videoId-error-message ez-editfield-error-message">&nbsp;</p>
+        </label>
+    </div>
+    <div class="pure-u ez-editfield-input-area ez-default-error-style">
+        <label class="ez-field-sublabel ez-font-icon" for="ez-field-{{ content.contentId }}-{{ fieldDefinition.identifier }}-videoId">
+            {{ translate "ezyt.vid" "ezyt" }}{{#if isVideoIdRequired}}*{{/if}}:
+        </label>
+        <div class="ez-editfield-input">
+            <div class="ez-yt-input-ui ez-user-input-ui">
+                <input type="text"
+                    class="ez-yt-videoId-field-value ez-validated-input"
+                    value="{{ field.fieldValue.videoId }}"
+                    id="ez-field-{{ content.contentId }}-{{ fieldDefinition.identifier }}-videoId"
+                    {{#if isVideoIdRequired}} required{{/if}}>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pure-g ez-editfield-row ez-editfield-row-yt-title ez-editfield-yt">
+    <div class="pure-u ez-editfield-infos">
+        <label  for="ez-field-{{ content.contentId }}-{{ fieldDefinition.identifier }}-title">
+            <p class="ez-editfield-yt-title-error-message ez-editfield-error-message">&nbsp;</p>
+        </label>
+    </div>
+    <div class="pure-u ez-editfield-input-area ez-default-error-style">
+        <label class="ez-field-sublabel" for="ez-field-{{ content.contentId }}-{{ fieldDefinition.identifier }}-title">
+            {{ translate "ezyt.title" "ezyt" }}{{#if isTitleRequired}}*{{/if}}:
+        </label>
+        <div class="ez-editfield-input">
+            <div class="ez-yt-input-ui ez-user-input-ui">
+                <input type="text"
+                       class="ez-yt-title-field-value ez-validated-input"
+                       value="{{ field.fieldValue.title }}"
+                       id="ez-field-{{ content.contentId }}-{{ fieldDefinition.identifier }}-title"
+                       {{#if isTitleRequired}} required{{/if}}>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pure-g ez-editfield-row ez-editfield-row-yt-width ez-editfield-yt">
+    <div class="pure-u ez-editfield-infos">
+        <label  for="ez-field-{{ content.contentId }}-{{ fieldDefinition.identifier }}-width">
+            <p class="ez-editfield-yt-width-error-message ez-editfield-error-message">&nbsp;</p>
+        </label>
+    </div>
+    <div class="pure-u ez-editfield-input-area ez-default-error-style">
+        <label class="ez-field-sublabel" for="ez-field-{{ content.contentId }}-{{ fieldDefinition.identifier }}-width">
+            {{ translate "ezyt.width" "ezyt" }}{{#if isWidthRequired}}*{{/if}}:
+        </label>
+        <div class="ez-editfield-input">
+            <div class="ez-yt-input-ui ez-user-input-ui">
+                <input type="text"
+                       class="ez-yt-width-field-value ez-validated-input"
+                       value="{{ field.fieldValue.width }}"
+                       id="ez-field-{{ content.contentId }}-{{ fieldDefinition.identifier }}-width"
+                       {{#if isWidthRequired}} required{{/if}}>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pure-g ez-editfield-row ez-editfield-row-yt-height ez-editfield-yt">
+    <div class="pure-u ez-editfield-infos">
+        <label  for="ez-field-{{ content.contentId }}-{{ fieldDefinition.identifier }}-height">
+            <p class="ez-editfield-yt-height-error-message ez-editfield-error-message">&nbsp;</p>
+        </label>
+    </div>
+    <div class="pure-u ez-editfield-input-area ez-default-error-style">
+        <label class="ez-field-sublabel" for="ez-field-{{ content.contentId }}-{{ fieldDefinition.identifier }}-height">
+            {{ translate "ezyt.height" "ezyt" }}{{#if isHeightRequired}}*{{/if}}:
+        </label>
+        <div class="ez-editfield-input">
+            <div class="ez-yt-input-ui ez-user-input-ui">
+                <input type="text"
+                       class="ez-yt-height-field-value ez-validated-input"
+                       value="{{ field.fieldValue.height }}"
+                       id="ez-field-{{ content.contentId }}-{{ fieldDefinition.identifier }}-height"
+                       {{#if isHeightRequired}} required{{/if}}>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pure-g ez-editfield-row ez-editfield-row-yt-autoplay ez-editfield-yt">
+    <div class="pure-u ez-editfield-infos">
+        <label  for="ez-field-{{ content.contentId }}-{{ fieldDefinition.identifier }}-autoplay">
+            <p class="ez-editfield-yt-autoplay-error-message ez-editfield-error-message">&nbsp;</p>
+        </label>
+    </div>
+    <div class="pure-u ez-editfield-input-area ez-default-error-style">
+        <label class="ez-field-sublabel" for="ez-field-{{ content.contentId }}-{{ fieldDefinition.identifier }}-autoplay">
+            {{ translate "ezyt.autoplay" "ezyt" }}{{#if isHeightRequired}}*{{/if}}:
+        </label>
+        <div class="ez-editfield-input">
+            <div class="ez-yt-input-ui ez-user-input-ui">
+                <input type="checkbox"
+                       class="ez-yt-autoplay-checkbox"
+                       id="ez-field-{{ content.contentId }}-{{ fieldDefinition.identifier }}-autoplay"
+                       {{#if isAutoplayChecked}}checked="checked"{{/if}}/>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,6 @@
+ezyt.vid.required: "Video ID is required!"
+ezyt.title.required: "Title is required!"
+ezyt.width.not_integer: "This field can contain only digits!"
+ezyt.width.too_small: "Given value is too small!"
+ezyt.height.not_integer: "This field can contain only digits!"
+ezyt.height.too_small: "Given value is too small!"

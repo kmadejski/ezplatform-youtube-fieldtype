@@ -1,0 +1,14 @@
+{
+    "name": "kmadejski/youtube-fieldtype-bundle",
+    "description": "eZ Platform YouTube Embed FieldType",
+    "require": {
+        "php": "^5.6 | ^7.0",
+        "ezsystems/ezpublish-kernel": "~6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "EzSystems\\YouTubeFieldType\\": "lib",
+            "EzSystems\\YouTubeFieldTypeBundle\\": "bundle"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+system:
+    default:
+        yui:
+            modules:
+                ez-rawcontentview:
+                    requires:
+                        - 'yt-view'
+                ez-contenteditformview:
+                    requires:
+                        - 'yt-editview'
+                yt-view:
+                    requires: ['ez-fieldview', 'ytview-ez-template', 'ez-translator']
+                    path: '%ezyt_fieldtype.public_dir%/js/views/fields/yt-view.js'
+                ytview-ez-template:
+                    type: 'template'
+                    path: '%ezyt_fieldtype.public_dir%/js/views/fields/templates/yt-view.hbt'
+                yt-editview:
+                    requires: ['ez-fieldeditview', 'event-valuechange', 'yteditview-ez-template', 'ez-translator']
+                    path: '%ezyt_fieldtype.public_dir%/js/views/fields/yt-editview.js'
+                yteditview-ez-template:
+                    type: 'template'
+                    path: '%ezyt_fieldtype.public_dir%/js/views/fields/templates/yt-edit.hbt'

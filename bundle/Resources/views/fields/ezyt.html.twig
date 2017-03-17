@@ -1,0 +1,13 @@
+{% extends "EzPublishCoreBundle::content_fields.html.twig" %}
+{% block ezyt_field %}
+    {% spaceless %}
+        {% if not ez_is_field_empty( content, field ) %}
+            <h3>{{ field.value.title }}</h3>
+            <iframe id="ytplayer" type="text/html" width="{{ field.value.width }}" height="{{ field.value.height }}"
+                    src="https://www.youtube.com/embed/{{ field.value.videoId }}?autoplay={{ field.value.autoplay }}&origin=/"
+                    frameborder="0"></iframe>
+        {% endif %}
+    {% endspaceless %}
+{% endblock %}
+
+

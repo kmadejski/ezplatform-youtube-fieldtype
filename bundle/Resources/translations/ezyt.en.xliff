@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
+  <file date="2017-03-10T10:18:34Z" source-language="en" target-language="en" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="7c036f0debe20370dddff82b5a6a5f936623871e" resname="ezyt.autoplay">
+        <source>Autoplay</source>
+        <target>Autoplay</target>
+        <note>key: ezyt.autoplay</note>
+        <jms:reference-file>/Users/kamil/www/ezplatform18/src/KMadejski/YTFieldTypeBundle/Resources/public/js/views/fields/templates/yt-edit.hbt</jms:reference-file>
+        <jms:reference-file>/Users/kamil/www/ezplatform18/src/KMadejski/YTFieldTypeBundle/Resources/public/js/views/fields/templates/yt-view.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a8bcc346957567248df1e9768c0e2be0e811bdd0" resname="ezyt.height">
+        <source>Height</source>
+        <target>Height</target>
+        <note>key: ezyt.height</note>
+        <jms:reference-file>/Users/kamil/www/ezplatform18/src/KMadejski/YTFieldTypeBundle/Resources/public/js/views/fields/templates/yt-edit.hbt</jms:reference-file>
+        <jms:reference-file>/Users/kamil/www/ezplatform18/src/KMadejski/YTFieldTypeBundle/Resources/public/js/views/fields/templates/yt-view.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1c94adc705252a69c159d6a10e0a53fba7eeb879" resname="ezyt.preview">
+        <source>Preview</source>
+        <target state="new">Preview</target>
+        <note>key: ezyt.preview</note>
+        <jms:reference-file>/Users/kamil/www/ezplatform18/src/KMadejski/YTFieldTypeBundle/Resources/public/js/views/fields/templates/yt-view.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="abfe17af5e4fec29ebed472240242dd85e1811f8" resname="ezyt.see_on_yt">
+        <source>ezyt.see_on_yt</source>
+        <target state="new">See on YouTube.com</target>
+        <note>key: ezyt.see_on_yt</note>
+        <jms:reference-file>/Users/kamil/www/ezplatform18/src/KMadejski/YTFieldTypeBundle/Resources/public/js/views/fields/templates/yt-view.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c5a5e0757a2baeccbba78c4a5bf2d872a8d5df28" resname="ezyt.title">
+        <source>Title</source>
+        <target>Title</target>
+        <note>key: ezyt.title</note>
+        <jms:reference-file>/Users/kamil/www/ezplatform18/src/KMadejski/YTFieldTypeBundle/Resources/public/js/views/fields/templates/yt-edit.hbt</jms:reference-file>
+        <jms:reference-file>/Users/kamil/www/ezplatform18/src/KMadejski/YTFieldTypeBundle/Resources/public/js/views/fields/templates/yt-view.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2838b124f7780f16516e8bc0fa0c2e965e112633" resname="ezyt.vid">
+        <source>Video ID</source>
+        <target>Video ID</target>
+        <note>key: ezyt.vid</note>
+        <jms:reference-file>/Users/kamil/www/ezplatform18/src/KMadejski/YTFieldTypeBundle/Resources/public/js/views/fields/templates/yt-edit.hbt</jms:reference-file>
+        <jms:reference-file>/Users/kamil/www/ezplatform18/src/KMadejski/YTFieldTypeBundle/Resources/public/js/views/fields/templates/yt-view.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="fe8db10ff3d1027dfc6840a297e587e5110e8e90" resname="ezyt.width">
+        <source>Width</source>
+        <target>Width</target>
+        <note>key: ezyt.width</note>
+        <jms:reference-file>/Users/kamil/www/ezplatform18/src/KMadejski/YTFieldTypeBundle/Resources/public/js/views/fields/templates/yt-edit.hbt</jms:reference-file>
+        <jms:reference-file>/Users/kamil/www/ezplatform18/src/KMadejski/YTFieldTypeBundle/Resources/public/js/views/fields/templates/yt-view.hbt</jms:reference-file>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
