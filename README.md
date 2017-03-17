@@ -13,7 +13,7 @@ composer require kmadejski/ezplatform-youtube-fieldtype:dev-master
 ```
 $bundles = array(
 ...
-new EzSystems\YouTubeFieldTypeBundle\EzSystemsYouTubeFieldTypeBundle(),,
+new EzSystems\YouTubeFieldTypeBundle\EzSystemsYouTubeFieldTypeBundle(),
 ...
 );
 ```
@@ -22,6 +22,3 @@ new EzSystems\YouTubeFieldTypeBundle\EzSystemsYouTubeFieldTypeBundle(),,
 ```
 php app/console assets:install --symlink --relative
 ```
-
-### License & Copyright
-See LICENSE file.
